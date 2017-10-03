@@ -1,0 +1,45 @@
+﻿@model IList<Candidate>
+<div class="jumbotron py-1">
+    <h3 class="display-3">
+        Candidates
+    </h3>
+    <hr class="my-4">
+    <p class="lead">
+        <a class="btn btn-danger btn-lg" href="@Url.RouteUrl("CreateCandidate")" role="button">
+            Add New Candidate
+        </a>
+    </p>
+</div>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr class="table-danger">
+            <th>
+                First Name
+            </th>
+            <th>
+                Last Name
+            </th>
+            <th>
+                &nbsp;
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    <a class="btn btn-light" href="@Url.RouteUrl("GetCandidate", new { id = item.Id })">
+                        View Candidate
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

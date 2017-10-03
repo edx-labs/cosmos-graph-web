@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechRecruiting.Web", "TechRecruiting.Web\TechRecruiting.Web.csproj", "{FD4CF5C9-A6BD-4483-80CF-A4AB82CBFBCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechRecruiting.Models", "TechRecruiting.Models\TechRecruiting.Models.csproj", "{6BE91489-5684-4990-BC58-C2A88095126C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD4CF5C9-A6BD-4483-80CF-A4AB82CBFBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4CF5C9-A6BD-4483-80CF-A4AB82CBFBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4CF5C9-A6BD-4483-80CF-A4AB82CBFBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4CF5C9-A6BD-4483-80CF-A4AB82CBFBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE91489-5684-4990-BC58-C2A88095126C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE91489-5684-4990-BC58-C2A88095126C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE91489-5684-4990-BC58-C2A88095126C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE91489-5684-4990-BC58-C2A88095126C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B30EAE19-1540-4D21-B0BD-C4415E62E413}
+	EndGlobalSection
+EndGlobal
